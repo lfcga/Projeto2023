@@ -11,7 +11,7 @@ import game.Goal;
 import game.Obstacle;
 import game.Snake;
 
-//abstract class, meaning it cannot be instantiated directly but must be subclassed.
+//abstract class, meaning it cannot be instantiated directly but must be subclassed
 public abstract class Board extends Observable {
 	protected Cell[][] cells; // 2D array of Cell objects representing the cells of the game board.
 	private BoardPosition goalPosition;//object representing the position of a goal within the game.
