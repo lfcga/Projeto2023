@@ -18,7 +18,9 @@ import environment.Cell;
  */
  //declared as an abstract class, indicating that it cannot be instantiated directly but must be subclassed. 
 public abstract class Snake extends Thread implements Serializable{
-	private static final int DELTA_SIZE = 10;
+
+//  eliminado por email prof 07nov
+//	private static final int DELTA_SIZE = 10;
 	protected LinkedList<Cell> cells = new LinkedList<Cell>();
 	protected int size = 5;
 	private int id;
